@@ -1,0 +1,16 @@
+instalar node e testar com node-v
+instalar yarn e testar yarn -v
+
+- para criar o package.json (arquivo para armazenar informacoess de dependencia)
+  comando -> yarn init
+
+- dependencia para trabalhar com interface da linha de comando do babel   (node_modules):
+  comando -> yarn add @babel/cli            
+
+
+- "yarn.lock ( forma de cash do yarn) "
+   comando -> yarn add @babel/preset-env 
+
+yarn add @babel
+yarn add @babel/core
+yarn add @babel/plugin-proposal-object-rest-spread

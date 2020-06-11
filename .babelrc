@@ -1,0 +1,7 @@
+// Vai ser o cara que vai transformar as 
+// features com es6 es7 es8
+// para que todos os navegadores entendão
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-proposal-object-rest-spread"]
+}
