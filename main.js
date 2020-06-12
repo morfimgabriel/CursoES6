@@ -1,6 +1,11 @@
-const nome = "Diego"
-const idade = "23"
 
-//console.log('Meu nome é ' + nome + ' e tenho ' + idade + ' anos')
+const arr = [1, 2, 3, 4, 5];
 
-console.log(`Meu nome é ${nome} e tenho ${idade} anos.`)
+arr.map(item => console.log(item + 10)) 
+
+
+const usuario = { nome: 'Diego', idade: 23 };
+
+function mostraIdade(usuario) {
+      return usuario.idade
+;}

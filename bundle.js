@@ -1,6 +1,14 @@
 "use strict";
 
-var nome = "Diego";
-var idade = "23"; //console.log('Meu nome é ' + nome + ' e tenho ' + idade + ' anos')
+var arr = [1, 2, 3, 4, 5];
+arr.map(function (item) {
+  return console.log(item + 10);
+});
+var usuario = {
+  nome: 'Diego',
+  idade: 23
+};
 
-console.log("Meu nome \xE9 ".concat(nome, " e tenho ").concat(idade, " anos."));
+function mostraIdade(usuario) {
+  return usuario.idade;
+}
