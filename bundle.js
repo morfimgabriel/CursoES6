@@ -1,14 +1,10 @@
 "use strict";
 
-var arr = [1, 2, 3, 4, 5];
-arr.map(function (item) {
-  return console.log(item + 10);
-});
+var nome = 'Diego';
+var idade = 23;
 var usuario = {
-  nome: 'Diego',
-  idade: 23
+  nome: nome,
+  idade: idade,
+  cidade: 'Rio do Sul'
 };
-
-function mostraIdade(usuario) {
-  return usuario.idade;
-}
+console.log(usuario);

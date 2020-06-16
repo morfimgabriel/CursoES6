@@ -1,11 +1,11 @@
-
-const arr = [1, 2, 3, 4, 5];
-
-arr.map(item => console.log(item + 10)) 
+const nome = 'Diego';
+const idade = 23;
 
 
-const usuario = { nome: 'Diego', idade: 23 };
+const usuario = {
+      nome, 
+      idade, 
+      cidade: 'Rio do Sul',
+};
 
-function mostraIdade(usuario) {
-      return usuario.idade
-;}
+console.log(usuario)

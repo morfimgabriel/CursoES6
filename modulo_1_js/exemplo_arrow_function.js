@@ -1,6 +1,12 @@
 const arr = [1, 3 , 4, 5, 6]
 
+ // exemplo 1
 const newArr = arr.map(item => item * 2);
+
+// exemplo 2
+const newArr2 = arr.map(item => {
+    return item * 2;
+});
 
 
 console.log(newArr)
@@ -11,10 +17,10 @@ function soma(a = 3, b = 6) {
     return a + b;
 }
 
+const teste = () => {
+    return 'teste';
+}
 
+const teste2 = () => ({ nome: 'Diego' });
 
-// com arrow function
-const soma2 = (a = 3, b = 6) => a + b;
-
-console.log(soma(1))
-console.log(soma2(1))
+console.log(teste2);

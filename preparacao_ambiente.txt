@@ -14,3 +14,15 @@ instalar yarn e testar yarn -v
 yarn add @babel
 yarn add @babel/core
 yarn add @babel/plugin-proposal-object-rest-spread
+
+
+--- web package
+--- para o arquivo package.json
+
+yarn add webpack webpack-cli -D
+yarn add babel-loader -D
+
+
+
+
+babel é apenas para o ambiente de desenvolvimento
